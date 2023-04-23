@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import { FaEllo } from "react-icons/fa";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <h1>proyecto react</h1>
+    <h1>proyect<FaEllo size="30px" color='red'/> react</h1>
     </>
   )
 }
