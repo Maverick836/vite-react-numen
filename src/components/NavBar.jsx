@@ -2,12 +2,15 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function BarraNavegacion() {
   return (
     <Navbar sticky='top' variant='dark' bg="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <img src="src\assets\robotlogo.png" alt="" width={50} height={50} />
+        <Navbar.Brand href="index.html">Tienda Node</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -26,6 +29,15 @@ function BarraNavegacion() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
+        <Nav  >
+            
+            <Nav.Link href='shoppingCart.html' >
+              <FontAwesomeIcon icon= {faCartShopping}/>
+
+            
+            </Nav.Link>
+          
+        </Nav>
       </Container>
     </Navbar>
   );

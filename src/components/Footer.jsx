@@ -12,7 +12,7 @@ const Footer = () => {
             <h4>Información de contacto</h4>
             <p>Dirección: Av. General Paz 2560</p>
             <p>Teléfono: 3518765463</p>
-            <p>Email: nombretienda@hotmail.com</p>
+            <p>Email: TiendaNode@hotmail.com</p>
           </Col>
           <Col md={6} className="d-flex justify-content-md-end">
             <h4>Redes sociales</h4>
@@ -32,7 +32,7 @@ const Footer = () => {
         <hr className="mt-4" />
         <Row>
           <Col>
-            <p className="text-center">&copy; 2023 Nombre de la tienda. Todos los derechos reservados.</p>
+            <p className="text-center">&copy; 2023 Tienda Node. Todos los derechos reservados.</p>
           </Col>
         </Row>
       </Container>

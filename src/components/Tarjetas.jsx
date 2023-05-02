@@ -1,47 +1,66 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import imagen1 from "../assets/A52.jpg"
+import axios from 'axios';
+import { useState,useEffect } from 'react';
+
 
 function Tarjetas() {
-  return (
+
+  const [product,setListaDeProductos]= useState([]);
+
+  useEffect(() => {
+    const obtenerProductos = async() =>{
+      const origen ="http://localhost:8000/products";
+      const res = await axios.get(origen)
+
+      setListaDeProductos(res.data)
+
+
+    }
+    obtenerProductos();
+  
+    
+  }, [])
+
+  function addToCart(id){
+    const producto=product.find((prod)=>prod.id===id)
+    const agregar = async()=>{
+      const destino = "http://localhost:8000/cart";
+      const res= await axios.post(destino,producto)
+      
+      
+
+
+    }
+    agregar();
+  }
+  
+  return product.map(product=>
     <>
-    <div className="container-fluid my-3">
+    
+    <div  className="container-fluid my-3 ">
     <div className="row justify-content-around">
-    <Card className='mb-3' style={{ width: '18rem' }}>
-      <Card.Img className='mt-3' variant="top" src={imagen1} />
+    <Card className='mb-3 ' style={{ width: '18rem' }}>
+      <Card.Img className='mt-3' variant="top" src={product.image} />
       <Card.Body>
-        <Card.Title>Samsung A52 $300</Card.Title>
+        <Card.Title>{product.name}</Card.Title>
         <Card.Text>
-          Te ofrecemos la mejor opcion en calidad precio para tus compras.
+          {product.description}
         </Card.Text>
-        <Button variant="primary">Añadir al carrito</Button>
+        <Card.Text>
+          Precio: ${product.price}
+        </Card.Text>
+        <Button variant="primary" onClick={()=>addToCart(product.id)}>Añadir al carrito</Button>
       </Card.Body>
     </Card>
-    <Card className='mb-3' style={{ width: '18rem' }}>
-      <Card.Img className='mt-3' variant="top" src={imagen1} />
-      <Card.Body>
-        <Card.Title>Samsung A52</Card.Title>
-        <Card.Text>
-          Te ofrecemos la mejor opcion en calidad precio para tus compras.
-        </Card.Text>
-        <Button variant="primary">Añadir al carrito</Button>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img className='mt-3' variant="top" src={imagen1} />
-      <Card.Body>
-        <Card.Title>Samsung A52</Card.Title>
-        <Card.Text>
-          Te ofrecemos la mejor opcion en calidad precio para tus compras.
-        </Card.Text>
-        <Button variant="primary">Añadir al carrito</Button>
-      </Card.Body>
-    </Card>
+    
     </div>
     </div>
+    
 
-
+    
     </>
+    
   );
 }
 

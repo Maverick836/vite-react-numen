@@ -18,6 +18,7 @@ function App() {
   <BarraNavegacion/>
     <Carousel/>
     <Tarjetas/>
+    
     <Seccion1/>
     <Footer/>
   </div>
