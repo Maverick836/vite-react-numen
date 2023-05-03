@@ -3,21 +3,21 @@
     {
       "id": 1,
       "name": "iPhone 14 Pro Max",
-      "description": " El iPhone 14 Pro Max es resistente a las salpicaduras, al agua y al polvo, y fue probado en condiciones de laboratorio controladas, con una clasificación IP68 según la norma IEC 60529",
+      "description": "128gb + 8gb Ram Plata",
       "price": 806,
-      "image": "https://i.ibb.co/PNcC0S3/Apple-i-Phone-14-Pro-Max-14.jpg"
+      "image":"https://i.ibb.co/F5YZyQ4/01-Samsumg-Galaxy-A23.jpg"
     },
     {
       "id": 2,
       "name": "Samsung Galaxy A23 5G",
-      "description": "Octa-core con 4 GB de RAM para un rendimiento rápido y eficiente. Disfrutá de 128 GB de almacenamiento interno y agrega hasta 1 TB más con la tarjeta MicroSD",
+      "description": "128gb + 8gb Ram Plata",
       "price": 89999,
       "image": "https://i.ibb.co/F5YZyQ4/01-Samsumg-Galaxy-A23.jpg"
     },
     {
       "id": 3,
       "name": "Xiaomi Redmi 10C",
-      "description": "4 GB de RAM + 64 GB de ROM, pantalla de 6,71 pulgadas, cámara de 50 MP, batería de 5000 mAh con teléfono inteligente 4G Volte de carga rápida de 10 W, azul",
+      "description": "128gb + 8gb Ram Plata",
       "price": 62860,
       "image": "https://i.ibb.co/2kQKkv0/02-Xioami-Redmi-10c.jpg"
     },
