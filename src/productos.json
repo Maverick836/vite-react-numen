@@ -134,6 +134,20 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 31395,
       "image": "https://i.ibb.co/rmhfR28/Smart-Watch-Colmi-i120.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy A23 5G",
+      "description": "128gb + 8gb Ram Plata",
+      "price": 89999,
+      "image": "https://i.ibb.co/F5YZyQ4/01-Samsumg-Galaxy-A23.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Tableta Lenovo Tab M10",
+      "description": "Lorem ipsum dolor sit amet.",
+      "price": 92440,
+      "image": "https://i.ibb.co/59PJsfn/Lenovo-Tab-M10.jpg"
     }
   ]
 }
