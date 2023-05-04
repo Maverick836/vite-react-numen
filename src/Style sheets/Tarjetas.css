@@ -1,0 +1,74 @@
+/* define los márgenes superior e inferior y el relleno superior para 
+los elementos que utilizan la clase row. */
+.row{
+  margin-top:0px;
+  padding-top: 0;
+  margin-bottom: 10%;
+}
+/* define el ancho completo para los elementos que utilizan la clase btn */
+.btn{
+  width: 100%;
+  }
+  /* define el ancho, la altura, el radio de borde, el borde, el espaciado de letras,
+   el peso de fuente, la distancia superior y el cursor para los botones que se encuentran
+    dentro de elementos que utilizan la clase btn. */
+.btn button {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-top: 6px;
+  cursor: pointer;
+ }
+ /* define el tamaño de fuente y el color de texto para los elementos que utilizan 
+ la clase product-name o el elemento h5. */
+.product-name , H5 {
+  font-size: 15px;
+  color: #0B3C5D;
+}
+/* define el tamaño de fuente y el color de texto para los elementos que utilizan la 
+clase description. */
+ .description{
+  font-size: 15px;
+color: #0B3C5D;
+}
+/* define el margen inferior para las imágenes dentro de elementos
+ que utilizan la clase btn. */
+.btn i img {
+  margin-bottom: 3px;
+}
+/* define el color de texto y el tamaño de fuente para los elementos span. */
+span{
+  color: aliceblue;
+  font-size: 15px;
+}
+/* define el color de texto para los elementos que utilizan la clase ars. */
+ .ars {
+  color: #0B3C5D;
+}
+/* define el ancho, la sombra y la transición de transformación para los elementos
+ que utilizan la clase card, así como el cursor de puntero. */
+.card {
+  width: 250px;
+  box-shadow: 0px 2px 5px black;
+  transition: transform 0.5s;
+  cursor: pointer;
+  
+}
+/* define la transformación de desplazamiento hacia arriba cuando se coloca
+ el cursor sobre los elementos que utilizan la clase card. */
+
+.card:hoverv{
+  transform: translateY(-15px);
+}
+
+.star{
+  font-size: 20px;
+}
+
+.checked{
+  color: rgba(255, 196,0, 0.894);
+
+}

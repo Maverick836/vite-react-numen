@@ -5,7 +5,7 @@
       "name": "iPhone 14 Pro Max",
       "description": "128gb + 8gb Ram Plata",
       "price": 806,
-      "image":"https://i.ibb.co/F5YZyQ4/01-Samsumg-Galaxy-A23.jpg"
+      "image": "https://i.ibb.co/F5YZyQ4/01-Samsumg-Galaxy-A23.jpg"
     },
     {
       "id": 2,
@@ -31,87 +31,109 @@
     {
       "id": 5,
       "name": "Smartwatch Colmi I20",
-      "description": "3 conjuntos de interacción de interfaz de usuario, asistente de voz compatible, llamada Bluetooth",
+      "description": "Lorem ipsum dolor sit amet.",
       "price": 31395,
       "image": "https://i.ibb.co/rmhfR28/Smart-Watch-Colmi-i120.jpg"
     },
     {
       "id": 6,
       "name": "Smartwatch Garmin",
-      "description": "Vivofit® 4 te inspira a levantarte y moverte",
+      "description": "Lorem ipsum dolor sit amet.",
       "price": 29999,
       "image": "https://i.ibb.co/PNWPXMN/Smartwatch-Garmin-Vivofit.jpg"
     },
     {
       "id": 7,
       "name": "Moto Watch 100",
-      "description": "Energía que se adapta a tu rutina. Su batería tiene una duración de hasta 7 días",
+      "description": "Lorem ipsum dolor sit amet.",
       "price": 39990,
       "image": "https://i.ibb.co/sbdpLb8/Moto-Watch-100.jpg"
     },
     {
       "id": 8,
       "name": "Xioami-Smart-Band-7",
-      "description": "La Mi Band tiene todo lo necesario para acompañarte en tu rutina.",
+      "description": "Lorem ipsum dolor sit amet.",
       "price": 27990,
       "image": "https://i.ibb.co/XkGg5yV/Xioami-Smart-Band-7.jpg"
     },
     {
       "id": 9,
       "name": "Tableta Lenovo Tab M10",
-      "description": "FHD de 10 pulgadas, Android de 12 a 64 GB de almacenamiento, batería de larga duración",
+      "description": "Lorem ipsum dolor sit amet.",
       "price": 92440,
       "image": "https://i.ibb.co/59PJsfn/Lenovo-Tab-M10.jpg"
     },
     {
       "id": 10,
       "name": "Tablet Samsung Galaxy Tab S8",
-      "description": "Diseñada para llevar la diversión a todas partes. Esta pantalla LCD de 11\" tiene mucho para ofrecer",
+      "description": "Lorem ipsum dolor sit amet.",
       "price": 340999,
       "image": "https://i.ibb.co/yqrx1ZG/Tablet-Galaxi-Tab-S8.jpg"
     },
     {
       "id": 11,
       "name": "Tablet Pcbox Flash PCB-T104",
-      "description": "Combinación perfecta de rendimiento y versatilidad, ideal para acompañar cada una de tus actividades",
+      "description": "Lorem ipsum dolor sit amet.",
       "price": 50968,
       "image": "https://i.ibb.co/C9KMgFL/Tablet-Pcbox-Flash-PCB-T104.jpg"
     },
     {
       "id": 12,
       "name": "iPad Apple 10th generation 2022 A2696",
-      "description": "Combina la potencia y la capacidad de una computadora con la versatilidad y facilidad de uso que solo un iPad puede brindar",
+      "description": "Lorem ipsum dolor sit amet.",
       "price": 289999,
       "image": "https://i.ibb.co/CzYCcB5/i-Pad-Apple-10th.jpg"
     },
     {
       "id": 13,
       "name": "Lenovo IdeaPad 1 14ADA7",
-      "description": "Su pantalla de 14 y 1366x768 px de resolución te brindará colores más vivos",
+      "description": "Lorem ipsum dolor sit amet.",
       "price": 289999,
       "image": "https://i.ibb.co/YRSDdXd/Lenovo-Idea-Pad-1-14-ADA7.jpg"
     },
     {
       "id": 14,
       "name": "Notebook Dell Inspiron 3505",
-      "description": "Su placa de video AMD Radeon RX Vega 8 (Ryzen 2000/3000) convierte a este dispositivo en una gran herramienta de trabajo para cualquier profesional del diseño",
+      "description": "Lorem ipsum dolor sit amet.",
       "price": 330325,
       "image": "https://i.ibb.co/8NG9ZcG/Notebook-Dell-Inspiron-3505.jpg"
     },
     {
       "id": 15,
       "name": "Notebook Banghó Max L4 i1",
-      "description": "Con su procesador Intel Celeron de 2 núcleos, lograrás el desempeño que necesitás para navegar y trabajar",
+      "description": "Lorem ipsum dolor sit amet.",
       "price": 204750,
       "image": "https://i.ibb.co/WBLkKWk/Notebook-Bangh-Max-L4-i1.jpg"
     },
     {
       "id": 16,
       "name": "Notebook HP 15-ef2514",
-      "description": "Te permitirá lograr una gran performance en todos tus juegos y en otras tareas cotidianas que impliquen procesamiento gráfico",
+      "description": "Lorem ipsum dolor sit amet.",
       "price": 584999,
       "image": "https://i.ibb.co/F6XZyNC/Notebook-HP-15-ef2514.jpg"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": 6,
+      "name": "Smartwatch Garmin",
+      "description": "Lorem ipsum dolor sit amet.",
+      "price": 29999,
+      "image": "https://i.ibb.co/PNWPXMN/Smartwatch-Garmin-Vivofit.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Moto Watch 100",
+      "description": "Lorem ipsum dolor sit amet.",
+      "price": 39990,
+      "image": "https://i.ibb.co/sbdpLb8/Moto-Watch-100.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch Colmi I20",
+      "description": "Lorem ipsum dolor sit amet.",
+      "price": 31395,
+      "image": "https://i.ibb.co/rmhfR28/Smart-Watch-Colmi-i120.jpg"
+    }
+  ]
 }
