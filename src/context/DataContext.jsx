@@ -6,7 +6,7 @@ import { useState } from "react";
 // consumido por otros componentes
 export const dataContext = createContext();
 
-const dataProvider = ({children}) => {
+const DataProvider = ({children}) => {
     // Se define el estado local "data" con un arreglo vacio
     // y la funcion "setData" para actualizar el estado
     const [data, setData] = useState([]);
@@ -25,13 +25,13 @@ const getData = async ()=> {
 // Se devuelve un proveedor de contexto que proporciona los datos a los componentes 
 //hijos que lo consumen
 return (
-    <dataContext.Provider>
+    <dataContext.Provider  value={{data}}>
         {children}
-    </dataContext.Provider>
+    </dataContext.Provider >
     
 );
 
 
 }
 
-export default dataProvider
+export default DataProvider
