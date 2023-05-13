@@ -7,25 +7,47 @@ import { useState } from "react";
 export const dataContext = createContext();
 
 const DataProvider = ({children}) => {
+
     // Se define el estado local "data" con un arreglo vacio
     // y la funcion "setData" para actualizar el estado
     const [data, setData] = useState([]);
+    
+    //Se define el estado local "cart" con un arreglo vacio
+    // y la funcion "setCar" para actualizar el estado del "carrito"
+
+    const [cart, setCart] = useState([]);
+
     //Se utiliza la funcion "useEffect" para cargar los daos
     // de la "apifake" al cargar el componente
     useEffect(() => {
     getData()
     }, [])
+
 // Se defina la funcion asincronica "getData" para obtener los datos de la API
 // y actualizar el estado "data"
 const getData = async ()=> {
-    const res = await axios.get("http://localhost:8000/cart");
+    const res = await axios.get("http://localhost:8000/products");
     setData(res.data)
 }
 
+const addToCart = (product) => {
+    const productRepeat = cart.find((item) => item.id === product.id);
+
+    if (productRepeat) {
+      setCart(cart.map((item) => (item.id === product.id ? {
+        ...product, quanty: productRepeat.quanty + 1
+      } : item)));
+    } else {
+      setCart([...cart, product])
+    }
+  };
+
+
+
 // Se devuelve un proveedor de contexto que proporciona los datos a los componentes 
-//hijos que lo consumen
+//hijos que lo consumen.
 return (
-    <dataContext.Provider  value={{data}}>
+    <dataContext.Provider  value={{data, cart, setCart, addToCart}}>
         {children}
     </dataContext.Provider >
     
