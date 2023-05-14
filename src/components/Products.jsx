@@ -2,16 +2,14 @@ import { useContext } from "react";
 import { dataContext } from "../context/DataContext";
 
 const Products = () => {
-  const { data,  addToCart } = useContext(dataContext);
+  const { data, addToCart } = useContext(dataContext);
 
-  
-  return data.map((product) => {
-    return (
-
-      <div className="container" key={product.id}>
+  return (
+    <>
+      <div className="container-fluid">
         <div className="row">
-          <div >
-            <div className="card">
+          {data.map((product) => (
+            <div className="card mt-3 mx-auto" key={product.id}>
               <img className="card-image-top mx-auto d-block" src={product.image} alt="" style={{ width: '50%' }} />
               <div className="card-body">
                 <h2 className="card-title1 text-center product-name">{product.name}</h2>
@@ -29,18 +27,12 @@ const Products = () => {
                 </div>
               </div>
             </div>
-          </div>
+          ))}
+          <div></div>
         </div>
       </div>
-
-
-
-
-
-    )
-
-  });
-
+    </>
+  )
 }
 
-export default Products
+export default Products;

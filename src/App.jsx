@@ -15,14 +15,12 @@ function App() {
   return (
 
      <>
-   
       <DataProvider>
         <BrowserRouter>
           <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/cart' element={<ShoppingCart />}></Route>
           </Routes>
-
         </BrowserRouter>
       </DataProvider>
      </>

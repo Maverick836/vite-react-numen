@@ -6,8 +6,7 @@ import Products from './Products'
 
 const Tarjetas_Home = () => {
   return (
-    <div className='grid_container'>
-      
+    <div className=''>
       <Products/>
     </div>
   )
