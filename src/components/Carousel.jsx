@@ -12,8 +12,8 @@ function UncontrolledExample() {
           alt="imagen 1"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 className='text-black'>Tecnología</h3>
+          <p className='text-black' >Múltiples herramientas disponibles</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -24,8 +24,8 @@ function UncontrolledExample() {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 className='text-black'>Variedad</h3>
+          <p className='text-white'>Todas las marcas y últimos lanzamientos</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -36,9 +36,9 @@ function UncontrolledExample() {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          <h3 className='text-white'>Confort y adaptabilidad</h3>
+          <p className='text-white'>
+            Disfruta de la comodidad tanto de tu trabajo como en tu tiempo libre
           </p>
         </Carousel.Caption>
       </Carousel.Item>

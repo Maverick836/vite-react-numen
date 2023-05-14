@@ -3,14 +3,30 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 30px;
+    
+    border-radius: 10px;
+    align-items: center;
+    background-image: url("../assets/imagen-1.jpg");
+    background-size: cover;
+    color:white;
 }
 
 .cartContent img {
     height: 120px;
     width: 100px;
-    text-align: center;
+    
 }
+
 
 .cartTotal{
     text-align: center;
+    background-image: url("../assets/imagen-1.jpg");
+    padding-bottom: 37px;
+    background-size: cover;
+    
+
+}
+#root{
+    background-color: grey;
+    background-size: cover;
 }

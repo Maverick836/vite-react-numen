@@ -1,1 +1,7 @@
-
+.Emptycart{
+    background-image: url("../assets/imagen-1.jpg");
+    background-size: cover;
+    width: 100wh;
+    height: 100vh;
+    color:white ;
+}
