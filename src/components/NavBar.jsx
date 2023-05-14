@@ -42,11 +42,7 @@ const BarraNavegacion = () =>{
             <Link to={"/cart"}>
               <FontAwesomeIcon icon= {faCartShopping}/>
               {cart.length > 0 ? <ItemsTotal/> : null  }
-              
               </Link>
-            
-         
-          
         </Nav>
       </Container>
     </Navbar>
