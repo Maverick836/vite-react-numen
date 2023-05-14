@@ -2,6 +2,8 @@ import axios from "axios";
 import { createContext , useEffect } from "react";
 import { useState } from "react";
 
+
+
 // Se crea un contexto global de datos que puede Ser
 // consumido por otros componentes
 export const dataContext = createContext();
@@ -31,15 +33,21 @@ const getData = async ()=> {
 }
 
 const addToCart = (product) => {
+    
+    
     const productRepeat = cart.find((item) => item.id === product.id);
 
     if (productRepeat) {
+      
       setCart(cart.map((item) => (item.id === product.id ? {
         ...product, quanty: productRepeat.quanty + 1
       } : item)));
     } else {
+     
       setCart([...cart, product])
     }
+    
+
   };
 
 

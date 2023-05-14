@@ -1,8 +1,14 @@
 import { useContext } from "react";
+import {useState} from "react";
 import { dataContext } from "../context/DataContext";
+import Buycheck from "../components/Buycheck";
 
 const Products = () => {
   const { data, addToCart } = useContext(dataContext);
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
     <>
@@ -23,7 +29,7 @@ const Products = () => {
                   <i className="fa fa-star"></i>
                 </div>
                 <div className="btn">
-                  <button type="button" style={{ backgroundColor: '#0B3C5D' }} onClick={() => addToCart(product)}><span>¡Cómpralo ya!</span></button>
+                  <button type="button" style={{ backgroundColor: '#0B3C5D' }} onClickCapture={handleShow} onClick={() => addToCart(product)  }><span>¡Cómpralo ya!</span></button>
                 </div>
               </div>
             </div>
@@ -31,6 +37,7 @@ const Products = () => {
           <div></div>
         </div>
       </div>
+      <Buycheck show={show} handleClose={handleClose}/>
     </>
   )
 }
