@@ -6,6 +6,7 @@
       "description": "128gb + 8gb Ram Plata",
       "price": 806,
       "image": "https://i.ibb.co/F5YZyQ4/01-Samsumg-Galaxy-A23.jpg",
+      "category":"celular",
       "quanty": 1
     },
     {
@@ -14,6 +15,7 @@
       "description": "128gb + 8gb Ram Plata",
       "price": 89999,
       "image": "https://i.ibb.co/F5YZyQ4/01-Samsumg-Galaxy-A23.jpg",
+      "category":"celular",
       "quanty": 1
     },
     {
@@ -22,6 +24,7 @@
       "description": "128gb + 8gb Ram Plata",
       "price": 62860,
       "image": "https://i.ibb.co/2kQKkv0/02-Xioami-Redmi-10c.jpg",
+      "category":"celular",
       "quanty": 1
     },
     {
@@ -30,6 +33,7 @@
       "description": "128gb + 8gb Ram Plata",
       "price": 149299,
       "image": "https://i.ibb.co/GTYrgDj/03-Motorola-Edge-30-Neo.jpg",
+      "category":"celular",
       "quanty": 1
     },
     {
