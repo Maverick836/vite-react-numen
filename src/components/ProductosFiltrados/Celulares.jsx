@@ -6,13 +6,17 @@ import Footer from "../Footer";
 
 
 export const Celulares = () => {
+
+  // Obtiene los datos y la función addToCart del contexto
     const { data, addToCart } = useContext(dataContext);
   
     return (
       <>
+
         <BarraNavegacion />
         <div className="container">
           {data.map((product) => {
+            // Verifica si la categoría del producto es "a"
             if (product.Category === "a") {
               return (
                 <div className="row" key={product.id}>
@@ -43,9 +47,12 @@ export const Celulares = () => {
                           <i className="fa fa-star"></i>
                         </div>
                         <div className="btn">
+                    
                           <button
-                            type="button"
+                            type="button" 
                             style={{ backgroundColor: "#0B3C5D" }}
+                            //la función se invoca cuando se hace clic en el botón
+                            // y se pasa el producto como argumento.
                             onClick={() => addToCart(product)}
                           >
                             <span>¡Cómpralo ya!</span>
