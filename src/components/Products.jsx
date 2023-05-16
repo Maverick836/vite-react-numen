@@ -4,10 +4,16 @@ import { dataContext } from "../context/DataContext";
 import Buycheck from "../components/Buycheck";
 
 const Products = () => {
+  
   const { data, addToCart } = useContext(dataContext);
+
+  // Estado para controlar la visualización del component
   const [show, setShow] = useState(false);
 
+
+// Función para cerrar el componente
   const handleClose = () => setShow(false);
+  // Función para mostrar el componente
   const handleShow = () => setShow(true);
 
   return (
@@ -29,6 +35,7 @@ const Products = () => {
                   <i className="fa fa-star"></i>
                 </div>
                 <div className="btn">
+                   {/* Botón para agregar al carrito */}
                   <button type="button" style={{ backgroundColor: '#0B3C5D' }} onClickCapture={handleShow} onClick={() => addToCart(product)  }><span>¡Cómpralo ya!</span></button>
                 </div>
               </div>
@@ -37,6 +44,7 @@ const Products = () => {
           <div></div>
         </div>
       </div>
+      {/* Componente Buycheck que muestra el carrito */}
       <Buycheck show={show} handleClose={handleClose}/>
     </>
   )

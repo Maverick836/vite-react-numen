@@ -24,16 +24,20 @@ const BarraNavegacion = () =>{
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            
+            <NavDropdown title="Productos" id="basic-nav-dropdown">
+            <Link to={"/celulares"}>
+              <NavDropdown.Item href="#action/3.1">Celulares</NavDropdown.Item>
+              </Link>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+              Tablets
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="#action/3.3">Smart Watch</NavDropdown.Item>
+              {/* <NavDropdown.Divider /> */}
+              {/* <NavDropdown.Item href="#action/3.4">
                 Separated link
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
+              <NavDropdown.Item href="#action/3.3">notebooks</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
@@ -42,7 +46,11 @@ const BarraNavegacion = () =>{
             <Link to={"/cart"}>
               <FontAwesomeIcon icon= {faCartShopping}/>
               {cart.length > 0 ? <ItemsTotal/> : null  }
+              
               </Link>
+            
+         
+          
         </Nav>
       </Container>
     </Navbar>
