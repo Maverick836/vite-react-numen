@@ -29,9 +29,10 @@ const BarraNavegacion = () =>{
             <Link to={"/celulares"}>
               <NavDropdown.Item href="#action/3.1">Celulares</NavDropdown.Item>
               </Link>
-              <NavDropdown.Item href="#action/3.2">
-              Tablets
-              </NavDropdown.Item>
+              <Link to={"/notebooks"}>
+              <NavDropdown.Item href="#action/3.2">Notebooks</NavDropdown.Item>
+              </Link>
+              
               <Link to={"/smartwatch"}>
               <NavDropdown.Item href="#action/3.3">SmartWatch</NavDropdown.Item>
               </Link>
