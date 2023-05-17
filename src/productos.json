@@ -78,6 +78,7 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 92440,
       "image": "https://i.ibb.co/59PJsfn/Lenovo-Tab-M10.jpg",
+      "Category":"c",
       "quanty": 1
     },
     {
@@ -86,6 +87,7 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 340999,
       "image": "https://i.ibb.co/yqrx1ZG/Tablet-Galaxi-Tab-S8.jpg",
+      "Category":"c",
       "quanty": 1
     },
     {
@@ -94,6 +96,7 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 50968,
       "image": "https://i.ibb.co/C9KMgFL/Tablet-Pcbox-Flash-PCB-T104.jpg",
+      "Category":"c",
       "quanty": 1
     },
     {
@@ -102,6 +105,7 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 289999,
       "image": "https://i.ibb.co/CzYCcB5/i-Pad-Apple-10th.jpg",
+      "Category":"c",
       "quanty": 1
     },
     {
