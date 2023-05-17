@@ -122,6 +122,7 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 330325,
       "image": "https://i.ibb.co/8NG9ZcG/Notebook-Dell-Inspiron-3505.jpg",
+      "Category":"d",
       "quanty": 1
     },
     {
@@ -130,6 +131,7 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 204750,
       "image": "https://i.ibb.co/WBLkKWk/Notebook-Bangh-Max-L4-i1.jpg",
+      "Category":"d",
       "quanty": 1
     },
     {
@@ -138,6 +140,7 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 584999,
       "image": "https://i.ibb.co/F6XZyNC/Notebook-HP-15-ef2514.jpg",
+      "Category":"d",
       "quanty": 1
     }
   ],
@@ -148,6 +151,7 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 29999,
       "image": "https://i.ibb.co/PNWPXMN/Smartwatch-Garmin-Vivofit.jpg",
+      "Category":"d",
       "quanty": 1
     },
     {
