@@ -39,7 +39,9 @@ const BarraNavegacion = () =>{
               {/* <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item> */}
-              <NavDropdown.Item href="#action/3.3">notebooks</NavDropdown.Item>
+               <Link to={"/tablets"}>
+              <NavDropdown.Item href="#action/3.3">Tablets</NavDropdown.Item>
+              </Link>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

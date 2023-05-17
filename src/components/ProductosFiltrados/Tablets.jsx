@@ -5,7 +5,7 @@ import React from 'react'
 import Footer from "../Footer";
 
 
-export const SmartWatch = () => {
+export const Tablets = () => {
 
   // Obtiene los datos y la función addToCart del contexto
     const { data, addToCart } = useContext(dataContext);
@@ -17,7 +17,7 @@ export const SmartWatch = () => {
         <div className="container">
           {data.map((product) => {
             // Verifica si la categoría del producto es "a"
-            if (product.Category === "b") {
+            if (product.Category === "c") {
               return (
                 <div className="row" key={product.id}>
                   <div className="col">
@@ -64,7 +64,7 @@ export const SmartWatch = () => {
                 </div>
               );
             } else {
-              return null; // Si el valor de "category" no es igual a "b", no se devuelve nada
+              return null; // Si el valor de "category" no es igual a "c", no se devuelve nada
             }
           })}
         </div>
@@ -76,4 +76,4 @@ export const SmartWatch = () => {
 
 
 
-export default SmartWatch;
+export default Tablets;

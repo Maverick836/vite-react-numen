@@ -8,6 +8,7 @@ import Home from './components/Home'
 import ShoppingCart from './components/ShoppingCart/ShoppingCart'
 import Celulares from './components/ProductosFiltrados/Celulares'
 import Smartwatch from './components/ProductosFiltrados/Smartwatch'
+import Tablets from './components/ProductosFiltrados/Tablets'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path='/cart' element={<ShoppingCart />}></Route>
             <Route path='/celulares' element={<Celulares />}></Route>
             <Route path='/smartwatch' element={<Smartwatch />}></Route>
+            <Route path='/tablets' element={<Tablets />}></Route>
           </Routes>
         </BrowserRouter>
       </DataProvider>
