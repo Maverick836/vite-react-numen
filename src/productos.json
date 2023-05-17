@@ -42,6 +42,7 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 31395,
       "image": "https://i.ibb.co/rmhfR28/Smart-Watch-Colmi-i120.jpg",
+      "Category":"b",
       "quanty": 1
     },
     {
@@ -50,6 +51,7 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 29999,
       "image": "https://i.ibb.co/PNWPXMN/Smartwatch-Garmin-Vivofit.jpg",
+      "Category":"b",
       "quanty": 1
     },
     {
@@ -58,6 +60,7 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 39990,
       "image": "https://i.ibb.co/sbdpLb8/Moto-Watch-100.jpg",
+      "Category":"b",
       "quanty": 1
     },
     {
@@ -66,6 +69,7 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 27990,
       "image": "https://i.ibb.co/XkGg5yV/Xioami-Smart-Band-7.jpg",
+      "Category":"b",
       "quanty": 1
     },
     {

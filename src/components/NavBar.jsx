@@ -32,7 +32,9 @@ const BarraNavegacion = () =>{
               <NavDropdown.Item href="#action/3.2">
               Tablets
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Smart Watch</NavDropdown.Item>
+              <Link to={"/smartwatch"}>
+              <NavDropdown.Item href="#action/3.3">SmartWatch</NavDropdown.Item>
+              </Link>
               {/* <NavDropdown.Divider /> */}
               {/* <NavDropdown.Item href="#action/3.4">
                 Separated link
