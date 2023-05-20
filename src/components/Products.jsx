@@ -36,7 +36,8 @@ const Products = () => {
                 </p>
                 <h5 className="text-center">
                   <span className="ars">ARS </span>
-                  {product.price}
+      
+                  {product.price.toLocaleString()}
                 </h5>
                 <div className="star text-center">
                   <i className="fa fa-star checked"></i>

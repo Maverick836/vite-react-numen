@@ -22,7 +22,7 @@ export const SmartWatch = () => {
               <div className="card-body">
                 <h2 className="card-title1 text-center product-name">{product.name}</h2>
                 <p className="card-text text-center description">{product.description}</p>
-                <h5 className="text-center"><span className='ars'>ARS </span>{product.price}</h5>
+                <h5 className="text-center"><span className='ars'>ARS </span>{product.price.toLocaleString()}</h5>
                 <div className="star text-center">
                   <i className="fa fa-star checked"></i>
                   <i className="fa fa-star checked"></i>
