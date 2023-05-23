@@ -16,7 +16,17 @@
     width: 100px;
     
 }
-
+.Name{
+    color: black;
+    font-weight: bolder;
+}
+.price{
+    color: black;
+    font-weight: bolder;
+}
+.cart-delete{
+    color: black;
+}
 
 .cartTotal{
     text-align: center;
