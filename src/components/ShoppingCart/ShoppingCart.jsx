@@ -8,6 +8,8 @@ import CartElements from './Cart.Elements';
 import CartTotal from './CartTotal';
 import BarraNavegacion from '../NavBar';
 import "../../Style sheets/ShoppingCart.css"
+import FormularioDePago from "../Formulario -pago/formularioDePago";
+
 
 
 const ShoppingCart = () => {
@@ -17,9 +19,11 @@ const ShoppingCart = () => {
         <>
             <BarraNavegacion />
             {cart.length > 0 ? (
+
                 <>
                     <CartElements />
                     <CartTotal />
+                    <FormularioDePago/>
                 </>
             ) : (<div className="Emptycart">
                 <h2 className="cart-menssage-center"> El carrito esta vacio</h2>

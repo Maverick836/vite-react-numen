@@ -5,13 +5,20 @@ import React from 'react'
 
 
 const CartTotal = () => {
+
+  const myStyles = {
+    fontSize: '25px',
+    color: 'white',
+    
+    
+  };
     const {cart} = useContext(dataContext);
 
-    const total = cart.reduce((acc,el)=> acc + el.price * el.quanty,0);
+    const total = cart.reduce((acc,el)=> acc + el.price * el.quanty,0).toLocaleString();
 
   return (
     <div className="cartTotal">
-        <h3>Total a pagar: $ {total}.-</h3>      
+        <h3 style={myStyles}>Total a pagar: ARS {total}</h3>      
     </div>
   )
 }
