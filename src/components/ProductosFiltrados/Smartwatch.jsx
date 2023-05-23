@@ -1,15 +1,18 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { dataContext } from "../../context/DataContext";
 import BarraNavegacion from "../NavBar";
 import React from 'react'
 import Footer from "../Footer";
-
+import Buycheck from "../Buycheck";
 
 export const SmartWatch = () => {
 
   // Obtiene los datos y la función addToCart del contexto
     const { data, addToCart } = useContext(dataContext);
-  
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
       <>
 
@@ -32,13 +35,14 @@ export const SmartWatch = () => {
                 </div>
                 <div className="btn">
                    {/* Botón para agregar al carrito */}
-                  <button type="button" style={{ backgroundColor: '#0B3C5D' }} onClick={() => addToCart(product)  }><span>¡Cómpralo ya!</span></button>
+                  <button type="button" style={{ backgroundColor: '#0B3C5D' }} onClick={() => addToCart(product)} onClickCapture={handleShow}><span>¡Cómpralo ya!</span></button>
                 </div>
               </div>
             </div>
             ))}
           </div>
         </div>
+        <Buycheck show={show} handleClose={handleClose} />
           <Footer/>
       </>
     );
