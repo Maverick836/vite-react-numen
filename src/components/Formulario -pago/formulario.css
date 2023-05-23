@@ -1,0 +1,94 @@
+.container-formulario {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    /* min-height: 100vh; */
+    padding-bottom: 70px;
+   }
+
+
+  .container-formulario form {
+   
+    padding: 20px;
+    width: 700px;
+    background: rgb(189, 180, 180);
+    box-shadow: 0 5px 10px black;
+  }
+  
+  .container-formulario form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .container-formulario form .row .col {
+    flex: 1 1 250px;
+  }
+  
+  .container-formulario form .row .col .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .container-formulario form .row .col .inputBox {
+    margin: 15px 0;
+  }
+  
+  .container-formulario form .row .col .inputBox span {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .container-formulario form .row .col .inputBox input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+  }
+  
+  .container-formulario form .row .col .inputBox input:focus {
+    border: 1px solid #000;
+  }
+  
+  .container-formulario form .row .col .flex {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .container-formulario form .row .col .flex .inputBox {
+    margin-top: 5px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background-color: blue;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: blue;
+  }
+  
+  .number-i::-webkit-inner-spin-button,
+  .number-i::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .img-tarjetas{
+    height: 45px;
+  }
+  /* .number-i {
+    -moz-appearance: textfield;
+  }
+   */
+  

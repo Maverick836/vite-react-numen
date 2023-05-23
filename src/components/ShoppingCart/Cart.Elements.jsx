@@ -9,6 +9,7 @@ import Table from 'react-bootstrap/Table';
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import { MdDelete } from 'react-icons/md';
 
 import React from 'react'
 
@@ -31,8 +32,9 @@ const CartElements = () => {
          <img src={product.image} />
           <h3 className="Name">{product.name}</h3>
           <CaritemCounter product={product} />
-           <h4 className="price">{product.price * product.quanty}</h4>
-           <h3 className='cart-delete' onClick={()=> DeleteProduct(product.id)}>x</h3>
+           <h4 className="price">{product.price.toLocaleString() * product.quanty}</h4>
+           <h3 className='cart-delete' onClick={()=> DeleteProduct(product.id)}><MdDelete size={20} title="Eliminar"/></h3>
+           
         </div>
         </section>
       

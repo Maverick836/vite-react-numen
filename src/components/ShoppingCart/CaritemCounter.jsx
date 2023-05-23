@@ -1,6 +1,7 @@
 import React from 'react'
 import { useContext } from 'react';
 import { dataContext } from '../../context/DataContext';
+import './../../Style sheets/CaritemCounter.css'
 
 
 const CaritemCounter = ({ product}) => {
@@ -16,8 +17,8 @@ const CaritemCounter = ({ product}) => {
   }
   return (
     <>
-    <p className='counter-button' onClick={decrese}>-</p>
-    <p>{product.quanty}</p>
+    <p className='counter-button' onClick={decrese} >-</p>
+    <p className='productQuanty'>{product.quanty}</p>
     <p className='counter-button'onClick={() => addToCart(product)}>+</p>
     </>
   )
