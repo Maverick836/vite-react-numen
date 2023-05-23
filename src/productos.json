@@ -101,7 +101,7 @@
     },
     {
       "id": 12,
-      "name": "iPad Apple 10th generation 2022 A2696",
+      "name": "iPad Apple 10th 2022 A2696",
       "description": "Lorem ipsum dolor sit amet.",
       "price": 289999,
       "image": "https://i.ibb.co/CzYCcB5/i-Pad-Apple-10th.jpg",
@@ -118,7 +118,7 @@
     },
     {
       "id": 14,
-      "name": "Notebook Dell Inspiron 3505",
+      "name": "Notebook Dell 3505",
       "description": "Lorem ipsum dolor sit amet.",
       "price": 330325,
       "image": "https://i.ibb.co/8NG9ZcG/Notebook-Dell-Inspiron-3505.jpg",
@@ -136,7 +136,7 @@
     },
     {
       "id": 16,
-      "name": "Notebook HP 15-ef2514",
+      "name": "Notebook HP 2514",
       "description": "Lorem ipsum dolor sit amet.",
       "price": 584999,
       "image": "https://i.ibb.co/F6XZyNC/Notebook-HP-15-ef2514.jpg",

@@ -1,6 +1,6 @@
 .counter-button{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 10px;
     color: black;
     
@@ -9,8 +9,10 @@
 .productQuanty{
     margin-right: 10px;
     color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
     
 
 }
-
 

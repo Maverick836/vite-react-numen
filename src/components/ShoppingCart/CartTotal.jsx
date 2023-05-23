@@ -12,6 +12,7 @@ const CartTotal = () => {
     
     
     
+    
   };
     const {cart} = useContext(dataContext);
 

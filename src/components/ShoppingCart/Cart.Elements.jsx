@@ -33,6 +33,7 @@ const CartElements = () => {
         <div className="cartContent" >
          <img src={product.image} />
           <h3 className="Name">{product.name}</h3>
+          
           <CaritemCounter product={product} />
            <h4 className="price">$ {product.price.toLocaleString() * product.quanty}</h4>
            <h3 className='cart-delete' onClick={()=> DeleteProduct(product.id)}><MdDelete size={20} title="Eliminar"/></h3>
