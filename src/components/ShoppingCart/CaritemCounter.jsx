@@ -17,9 +17,9 @@ const CaritemCounter = ({ product}) => {
   }
   return (
     <>
-    <p className='counter-button' onClick={decrese} >-</p>
-    <p className='productQuanty'>{product.quanty}</p>
-    <p className='counter-button'onClick={() => addToCart(product)}>+</p>
+    <p className='counter-button pointer' onClick={decrese} >-</p>
+    <p className='productQuanty pointer'>{product.quanty}</p>
+    <p className='counter-button pointer'onClick={() => addToCart(product)}>+</p>
     </>
   )
 }

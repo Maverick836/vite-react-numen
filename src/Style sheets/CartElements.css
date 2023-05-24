@@ -41,10 +41,12 @@
     background-image: url("../assets/imagen-1.jpg");
     padding-bottom: 37px;
     background-size: cover;
-    
-
 }
 #root{
-    background-color: grey;
+
     background-size: cover;
+}
+
+.pointer{
+    cursor: pointer;
 }

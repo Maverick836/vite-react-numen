@@ -1,13 +1,13 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary text-light py-4">
-      <Container>
-        <Row className="align-items-center">
+    <footer className="bg-secondary text-light">
+      <div className="container pt-2">
+      <Row className="align-items-center">
           <Col md={6}>
             <h4>Información de contacto</h4>
             <p>Dirección: Av. General Paz 2560</p>
@@ -28,14 +28,10 @@ const Footer = () => {
               </a>
             </div>
           </Col>
+          <hr />
+          <p className="text-center">&copy; 2023 Tienda Node. Todos los derechos reservados.</p>
         </Row>
-        <hr className="mt-4" />
-        <Row>
-          <Col>
-            <p className="text-center">&copy; 2023 Tienda Node. Todos los derechos reservados.</p>
-          </Col>
-        </Row>
-      </Container>
+      </div>
     </footer>
   );
 };
