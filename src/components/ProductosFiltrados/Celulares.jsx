@@ -4,6 +4,7 @@ import BarraNavegacion from "../NavBar";
 import React from 'react'
 import Footer from "../Footer";
 import Buycheck from "../Buycheck";
+import "../../Style sheets/Home.css"
 
 export const Celulares = () => {
 
@@ -14,10 +15,10 @@ export const Celulares = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
     return (
-      <>
-        <BarraNavegacion />
-        <div className="container-fluid">
-          <div className="row">
+      <div className="contenedor">
+      <BarraNavegacion />
+        <div className="container-fluid ">
+          <div className="row ">
             {data.filter((product) => product.Category == "a").map((product) =>(
             <div className="card mt-3 mx-auto" key={product.id}>
               <img className="card-image-top mx-auto d-block" src={product.image} alt="" style={{ width: '50%' }} />
@@ -47,7 +48,7 @@ export const Celulares = () => {
         </div>
         <Buycheck show={show} handleClose={handleClose} />
           <Footer/>
-      </>
+      </div>
     );
   };
 

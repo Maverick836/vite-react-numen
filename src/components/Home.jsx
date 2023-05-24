@@ -1,5 +1,4 @@
-
-// import '../Style sheets/Home.css'
+import '../Style sheets/Home.css'
 import BarraNavegacion from "./NavBar";
 import Carousel from './Carousel'
 import Tarjetas_Home from "./Tarjetas_Home";

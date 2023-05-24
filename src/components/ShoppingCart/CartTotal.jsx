@@ -8,11 +8,7 @@ const CartTotal = () => {
 
   const myStyles = {
     fontSize: '25px',
-    color: 'black',
-    
-    
-    
-    
+    color: 'black', 
   };
     const {cart} = useContext(dataContext);
 
