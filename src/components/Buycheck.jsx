@@ -8,7 +8,7 @@ const Buycheck = ({show, handleClose}) =>{
     return(
     <>
      <Modal show={show} onHide={handleClose} >
-        <Modal.Header closeButton>
+        <Modal.Header closeButton >
           <Modal.Title>Tienda Node</Modal.Title>
         </Modal.Header>
         <center><Modal.Body>Producto añadido de manera exitosa!!</Modal.Body></center>
@@ -19,7 +19,7 @@ const Buycheck = ({show, handleClose}) =>{
         
         <Modal.Footer>
           
-          <Button variant="primary" onClick={handleClose}>
+          <Button variant="primary" onClick={handleClose} style={{ backgroundColor: "#0B3C5D" }}>
             Aceptar
           </Button>
         </Modal.Footer>
