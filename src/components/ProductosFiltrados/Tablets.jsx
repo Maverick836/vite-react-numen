@@ -5,6 +5,8 @@ import React from 'react'
 import Footer from "../Footer";
 import Buycheck from "../Buycheck";
 
+
+
 export const Tablets = () => {
 
   // Obtiene los datos y la función addToCart del contexto
@@ -14,7 +16,7 @@ export const Tablets = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return (
-      <>
+      <div className="contenedor">
 
         <BarraNavegacion />
         <div className="container-fluid">
@@ -44,7 +46,7 @@ export const Tablets = () => {
         </div>
         <Buycheck show={show} handleClose={handleClose} />
           <Footer/>
-      </>
+      </div>
     );
   };
   

@@ -16,7 +16,7 @@ export const Celulares = () => {
   const handleShow = () => setShow(true);
     return (
       <div className="contenedor">
-      <BarraNavegacion />
+              <BarraNavegacion />
         <div className="container-fluid ">
           <div className="row ">
             {data.filter((product) => product.Category == "a").map((product) =>(
