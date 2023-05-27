@@ -29,9 +29,10 @@ const DataProvider = ({children}) => {
 // y actualizar el estado "data"
 const getData = async ()=> {
     const res = await axios.get("http://localhost:8000/products");
-    setData(res.data)
+    setData(res.data);
+    
 }
-
+//agrega productos al carrito.
 const addToCart = (product) => {
     
     
@@ -50,12 +51,17 @@ const addToCart = (product) => {
 
   };
 
+  // la funcion scrollToTop carga la pagina con el scroll arriba, utiliza la propiedad
+  //behavior: "smoth" para que se deslice suave.
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
 
 // Se devuelve un proveedor de contexto que proporciona los datos a los componentes 
 //hijos que lo consumen.
 return (
-    <dataContext.Provider  value={{data, cart, setCart, addToCart}}>
+    <dataContext.Provider  value={{data, cart, setCart, addToCart,scrollToTop}}>
         {children}
     </dataContext.Provider >
     

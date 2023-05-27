@@ -14,12 +14,19 @@ import CarritoVacio from "./CarritoVacio";
 import Footer from "../Footer";
 
 const ShoppingCart = () => {
-    const { cart } = useContext(dataContext);
+    const { cart, scrollToTop } = useContext(dataContext);
     const [isCartEmpty, setIsCartEmpty] = useState(false);
 
     useEffect(() => {
         setIsCartEmpty(cart.length === 0);
     }, [cart]);
+
+
+// utiliza la funcion scrollToTop para cargar con el scroll arriba.
+useEffect(() => {
+    scrollToTop();
+  }, []);
+
 
     return (
         <div className="contenedor">

@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import { dataContext } from "../../context/DataContext";
 import BarraNavegacion from "../NavBar";
 import React from 'react'
@@ -7,13 +7,18 @@ import Buycheck from "../Buycheck";
 import "../../Style sheets/Home.css"
 
 export const Notebooks = () => {
-
-  // Obtiene los datos y la función addToCart del contexto
-    const { data, addToCart } = useContext(dataContext);
+// Obtiene los datos , la funcion scrollToTop y la función addToCart del contexto
+    const { data, addToCart, scrollToTop } = useContext(dataContext);
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    // utiliza la funcion scrollToTop para cargar con el scroll arriba.
+  useEffect(() => {
+    scrollToTop();
+  }, []);
+
     return (
       <div className="contenedor">
             <BarraNavegacion />
