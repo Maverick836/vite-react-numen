@@ -14,7 +14,7 @@ export const SmartWatch = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return (
-      <>
+      <div className="contenedor">
 
         <BarraNavegacion />
         <div className="container-fluid">
@@ -44,7 +44,7 @@ export const SmartWatch = () => {
         </div>
         <Buycheck show={show} handleClose={handleClose} />
           <Footer/>
-      </>
+      </div>
     );
   };
   

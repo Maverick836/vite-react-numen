@@ -22,7 +22,7 @@ const ShoppingCart = () => {
     }, [cart]);
 
     return (
-        <>
+        <div className="contenedor">
             <BarraNavegacion />
             <div className={`shopping-cart ${isCartEmpty ? 'no-scroll' : ''}`}>
                 {cart.length > 0 ? (
@@ -36,7 +36,7 @@ const ShoppingCart = () => {
                 )}
             </div>
                     <Footer/>
-        </>
+        </div>
     );
 };
 
