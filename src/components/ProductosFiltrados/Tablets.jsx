@@ -4,7 +4,7 @@ import BarraNavegacion from "../NavBar";
 import React from 'react'
 import Footer from "../Footer";
 import Buycheck from "../Buycheck";
-
+import "../../Style sheets/Home.css"
 
 
 export const Tablets = () => {
@@ -26,8 +26,8 @@ export const Tablets = () => {
       <div className="contenedor">
 
         <BarraNavegacion />
-        <div className="container-fluid">
-          <div className="row">
+        <div className="container-fluid altura">
+          <div className="row mb-0">
             {data.filter((product) => product.Category == "c").map((product) =>(
             <div className="card mt-3 mx-auto" key={product.id}>
               <img className="card-image-top mx-auto d-block" src={product.image} alt="" style={{ width: '50%' }} />

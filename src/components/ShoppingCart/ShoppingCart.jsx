@@ -21,7 +21,6 @@ const ShoppingCart = () => {
         setIsCartEmpty(cart.length === 0);
     }, [cart]);
 
-
 // utiliza la funcion scrollToTop para cargar con el scroll arriba.
 useEffect(() => {
     scrollToTop();

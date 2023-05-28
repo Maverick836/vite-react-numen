@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const CarritoVacio = () => {
     return (
         <div className='carrito'>
-            <div className="container-carrito-vacio">
+            <div className="container-carrito-vacio altura">
                 <div className="imagen-carrito">
                     <img src="src\assets\robotlogo.png" alt="" />
                 </div>
