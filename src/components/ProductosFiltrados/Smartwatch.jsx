@@ -23,8 +23,8 @@ export const SmartWatch = () => {
       <div className="contenedor">
 
         <BarraNavegacion />
-        <div className="container-fluid">
-          <div className="row">
+        <div className="container-fluid altura">
+          <div className="row mb-0 ">
             {data.filter((product) => product.Category == "b").map((product) =>(
             <div className="card mt-3 mx-auto" key={product.id}>
               <img className="card-image-top mx-auto d-block" src={product.image} alt="" style={{ width: '50%' }} />
