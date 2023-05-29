@@ -45,13 +45,18 @@ const Products = () => {
                   <i className="fa fa-star checked"></i>
                   <i className="fa fa-star"></i>
                 </div>
+
+                
                 <div className="btn">
-                  <button
-                    type="button"
-                    style={{ backgroundColor: "#0B3C5D" }}
-                    onClickCapture={handleShow}
-                    onClick={() => addToCart(product)}
-                  >
+                <button
+          type="button"
+          style={{ backgroundColor: "#0B3C5D" }}
+          onClick={() => {
+            addToCart(product);
+            // desplegar modal despues de agregar al carrito
+            handleShow(); 
+          }}
+        >
                     <span>¡Cómpralo ya!</span>
                   </button>
                 </div>

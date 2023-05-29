@@ -34,32 +34,27 @@ const getData = async ()=> {
 }
 //agrega productos al carrito.
 const addToCart = (product) => {
-    
-    
-    const productRepeat = cart.find((item) => item.id === product.id);
+  const productRepeat = cart.find((item) => item.id === product.id);
 
-    if (productRepeat) {
-      
-      setCart(cart.map((item) => (item.id === product.id ? {
-        ...product, quanty: productRepeat.quanty + 1
-      } : item)));
-    } else {
-     
-      setCart([...cart, product])
-    }
-    
+  if (productRepeat) {
+    setCart((prevCart) =>
+      prevCart.map((item) =>
+        item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item
+      )
+    );
+  } else {
+    setCart((prevCart) => [...prevCart, { ...product, quantity: 1 }]);
+  }
+};
 
-  };
-
-  // la funcion scrollToTop carga la pagina con el scroll arriba, utiliza la propiedad
+  // se define la funcion scrollToTop que carga la pagina con el scroll arriba, utiliza la propiedad
   //behavior: "smoth" para que se deslice suave.
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
 
-// Se devuelve un proveedor de contexto que proporciona los datos a los componentes 
-//hijos que lo consumen.
+
 return (
     <dataContext.Provider  value={{data, cart, setCart, addToCart,scrollToTop}}>
         {children}
