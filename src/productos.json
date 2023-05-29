@@ -7,7 +7,7 @@
       "price": 806,
       "image": "https://i.ibb.co/F5YZyQ4/01-Samsumg-Galaxy-A23.jpg",
       "Category":"a",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "price": 89999,
       "image": "https://i.ibb.co/F5YZyQ4/01-Samsumg-Galaxy-A23.jpg",
       "Category":"a",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "price": 62860,
       "image": "https://i.ibb.co/2kQKkv0/02-Xioami-Redmi-10c.jpg",
       "Category":"a",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "price": 149299,
       "image": "https://i.ibb.co/GTYrgDj/03-Motorola-Edge-30-Neo.jpg",
       "Category":"a",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "price": 31395,
       "image": "https://i.ibb.co/rmhfR28/Smart-Watch-Colmi-i120.jpg",
       "Category":"b",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "price": 29999,
       "image": "https://i.ibb.co/PNWPXMN/Smartwatch-Garmin-Vivofit.jpg",
       "Category":"b",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "price": 39990,
       "image": "https://i.ibb.co/sbdpLb8/Moto-Watch-100.jpg",
       "Category":"b",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "price": 27990,
       "image": "https://i.ibb.co/XkGg5yV/Xioami-Smart-Band-7.jpg",
       "Category":"b",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "price": 92440,
       "image": "https://i.ibb.co/59PJsfn/Lenovo-Tab-M10.jpg",
       "Category":"c",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "price": 340999,
       "image": "https://i.ibb.co/yqrx1ZG/Tablet-Galaxi-Tab-S8.jpg",
       "Category":"c",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 11,
@@ -97,7 +97,7 @@
       "price": 50968,
       "image": "https://i.ibb.co/C9KMgFL/Tablet-Pcbox-Flash-PCB-T104.jpg",
       "Category":"c",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 12,
@@ -106,7 +106,7 @@
       "price": 289999,
       "image": "https://i.ibb.co/CzYCcB5/i-Pad-Apple-10th.jpg",
       "Category":"c",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 13,
@@ -114,7 +114,7 @@
       "description": "Lorem ipsum dolor sit amet.",
       "price": 289999,
       "image": "https://i.ibb.co/YRSDdXd/Lenovo-Idea-Pad-1-14-ADA7.jpg",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 14,
@@ -123,7 +123,7 @@
       "price": 330325,
       "image": "https://i.ibb.co/8NG9ZcG/Notebook-Dell-Inspiron-3505.jpg",
       "Category":"d",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 15,
@@ -132,7 +132,7 @@
       "price": 204750,
       "image": "https://i.ibb.co/WBLkKWk/Notebook-Bangh-Max-L4-i1.jpg",
       "Category":"d",
-      "quanty": 1
+      "quantity": 1
     },
     {
       "id": 16,
@@ -141,43 +141,11 @@
       "price": 584999,
       "image": "https://i.ibb.co/F6XZyNC/Notebook-HP-15-ef2514.jpg",
       "Category":"d",
-      "quanty": 1
+      "quantity": 1
     }
   ],
   "cart": [
-    {
-      "id": 6,
-      "name": "Smartwatch Garmin",
-      "description": "Lorem ipsum dolor sit amet.",
-      "price": 29999,
-      "image": "https://i.ibb.co/PNWPXMN/Smartwatch-Garmin-Vivofit.jpg",
-      "Category":"d",
-      "quanty": 1
-    },
-    {
-      "id": 7,
-      "name": "Moto Watch 100",
-      "description": "Lorem ipsum dolor sit amet.",
-      "price": 39990,
-      "image": "https://i.ibb.co/sbdpLb8/Moto-Watch-100.jpg",
-      "quanty": 1
-    },
-    {
-      "id": 5,
-      "name": "Smartwatch Colmi I20",
-      "description": "Lorem ipsum dolor sit amet.",
-      "price": 31395,
-      "image": "https://i.ibb.co/rmhfR28/Smart-Watch-Colmi-i120.jpg",
-      "quanty": 1
-    },
-    {
-      "id": 2,
-      "name": "Samsung Galaxy A23 5G",
-      "description": "128gb + 8gb Ram Plata",
-      "price": 89999,
-      "image": "https://i.ibb.co/F5YZyQ4/01-Samsumg-Galaxy-A23.jpg",
-      "quanty": 1
-    }
+    
    
   ]
 }

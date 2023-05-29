@@ -10,15 +10,15 @@ const CaritemCounter = ({ product}) => {
   const decrese = () =>{
     const productRepeat = cart.find((item) => item.id === product.id);
 
-    productRepeat.quanty !== 1 &&
+    productRepeat.quantity !== 1 &&
     setCart(cart.map((item) => (item.id === product.id ? {
-      ...product, quanty: productRepeat.quanty - 1
+      ...product, quantity: productRepeat.quantity - 1
     } : item)))
   }
   return (
     <>
     <p className='counter-button pointer' onClick={decrese} >-</p>
-    <p className='productQuanty pointer'>{product.quanty}</p>
+    <p className='productQuanty pointer'>{product.quantity}</p>
     <p className='counter-button pointer'onClick={() => addToCart(product)}>+</p>
     </>
   )

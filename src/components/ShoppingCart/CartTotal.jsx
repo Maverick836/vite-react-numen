@@ -12,7 +12,7 @@ const CartTotal = () => {
   };
     const {cart} = useContext(dataContext);
 
-    const total = cart.reduce((acc,el)=> acc + el.price * el.quanty,0).toLocaleString();
+    const total = cart.reduce((acc,el)=> acc + el.price * el.quantity,0).toLocaleString();
 
   return (
     <div className="cartTotal">
