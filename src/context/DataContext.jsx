@@ -2,8 +2,6 @@ import axios from "axios";
 import { createContext , useEffect } from "react";
 import { useState } from "react";
 
-
-
 // Se crea un contexto global de datos que puede Ser
 // consumido por otros componentes
 export const dataContext = createContext();

@@ -2,13 +2,6 @@ import '../../Style sheets/CartElements.css';
 import { useContext } from "react";
 import { dataContext } from "../../context/DataContext";
 import CaritemCounter from './CaritemCounter';
-import { Container } from 'react-bootstrap';
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col';
-import Table from 'react-bootstrap/Table';
-import Card from 'react-bootstrap/Card';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import { MdDelete } from 'react-icons/md';
 
 import React from 'react'

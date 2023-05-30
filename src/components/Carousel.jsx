@@ -12,8 +12,8 @@ function UncontrolledExample() {
           alt="imagen 1"
         />
         <Carousel.Caption>
-          <h3 className='text-black'>Tecnología</h3>
-          <p className='text-black' >Múltiples herramientas disponibles</p>
+          <h3 className='text-white'>Tecnología</h3>
+          <p className='text-white' >Múltiples herramientas disponibles</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -24,7 +24,7 @@ function UncontrolledExample() {
         />
 
         <Carousel.Caption>
-          <h3 className='text-black'>Variedad</h3>
+          <h3 className='text-white'>Variedad</h3>
           <p className='text-white'>Todas las marcas y últimos lanzamientos</p>
         </Carousel.Caption>
       </Carousel.Item>
