@@ -12,6 +12,7 @@ import "../../Style sheets/ShoppingCart.css"
 import FormularioDePago from "../Formulario -pago/formularioDePago";
 import CarritoVacio from "./CarritoVacio";
 import Footer from "../Footer";
+import CartElements1 from "./Cart.Elements1";
 
 const ShoppingCart = () => {
     const { cart, scrollToTop } = useContext(dataContext);
@@ -33,12 +34,17 @@ useEffect(() => {
             <div className={`shopping-cart ${isCartEmpty ? 'no-scroll' : ''}`}>
                 {cart.length > 0 ? (
                     <>
-                        <CartElements />
-                        <CartTotal />
+                    <CartElements1/>
+                        {/* <CartElements />
+                        <CartTotal /> */}
                         <FormularioDePago/>
                     </>
                 ) : (
+                    <>
+                    <CartElements1/>
                     <CarritoVacio/>
+                    </>
+                    
                 )}
             </div>
                     <Footer/>
