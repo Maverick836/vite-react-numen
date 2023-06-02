@@ -10,6 +10,7 @@ import Celulares from './components/ProductosFiltrados/Celulares'
 import Smartwatch from './components/ProductosFiltrados/Smartwatch'
 import Tablets from './components/ProductosFiltrados/Tablets'
 import Notebooks from './components/ProductosFiltrados/Notebooks'
+import  Nosotros from "./components/Nosotros/Nosotros";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path='/smartwatch' element={<Smartwatch />}></Route>
             <Route path='/tablets' element={<Tablets />}></Route>
             <Route path='/notebooks' element={<Notebooks />}></Route>
+            <Route path='/nosotros' element={<Nosotros/>}></Route>
           </Routes>
         </BrowserRouter>
       </DataProvider>

@@ -2,8 +2,8 @@
   "products": [
     {
       "id": 1,
-      "name": "iPhone 14 Pro Max",
-      "description": "128gb + 8gb Ram Plata",
+      "name": "iPhone 14 Pro",
+      "description": "128gb + 8gb Ram",
       "price": 806,
       "image": "https://i.ibb.co/F5YZyQ4/01-Samsumg-Galaxy-A23.jpg",
       "Category":"a",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "Samsung Galaxy A23 5G",
-      "description": "128gb + 8gb Ram Plata",
+      "description": "128gb + 8gb Ram",
       "price": 89999,
       "image": "https://i.ibb.co/F5YZyQ4/01-Samsumg-Galaxy-A23.jpg",
       "Category":"a",
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "name": "Xiaomi Redmi 10C",
-      "description": "128gb + 8gb Ram Plata",
+      "description": "256gb + 8gb Ram",
       "price": 62860,
       "image": "https://i.ibb.co/2kQKkv0/02-Xioami-Redmi-10c.jpg",
       "Category":"a",
@@ -29,8 +29,8 @@
     },
     {
       "id": 4,
-      "name": "Motorola Edge 30 Neo",
-      "description": "128gb + 8gb Ram Plata",
+      "name": "Motorola Edge 30",
+      "description": "1gb + 8gb Ram",
       "price": 149299,
       "image": "https://i.ibb.co/GTYrgDj/03-Motorola-Edge-30-Neo.jpg",
       "Category":"a",
@@ -38,8 +38,8 @@
     },
     {
       "id": 5,
-      "name": "Smartwatch Colmi I20",
-      "description": "Lorem ipsum dolor sit amet.",
+      "name": " Colmi I20",
+      "description": "chip Realtek",
       "price": 31395,
       "image": "https://i.ibb.co/rmhfR28/Smart-Watch-Colmi-i120.jpg",
       "Category":"b",
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "name": "Smartwatch Garmin",
-      "description": "Lorem ipsum dolor sit amet.",
+      "description": "Con GPS integrado.",
       "price": 29999,
       "image": "https://i.ibb.co/PNWPXMN/Smartwatch-Garmin-Vivofit.jpg",
       "Category":"b",
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "name": "Moto Watch 100",
-      "description": "Lorem ipsum dolor sit amet.",
+      "description": "LCD de 1.3",
       "price": 39990,
       "image": "https://i.ibb.co/sbdpLb8/Moto-Watch-100.jpg",
       "Category":"b",
@@ -65,8 +65,8 @@
     },
     {
       "id": 8,
-      "name": "Xioami-Smart-Band-7",
-      "description": "Lorem ipsum dolor sit amet.",
+      "name": "Smart-Band-7",
+      "description": "protección IP68",
       "price": 27990,
       "image": "https://i.ibb.co/XkGg5yV/Xioami-Smart-Band-7.jpg",
       "Category":"b",
@@ -74,8 +74,8 @@
     },
     {
       "id": 9,
-      "name": "Tableta Lenovo Tab M10",
-      "description": "Lorem ipsum dolor sit amet.",
+      "name": "Lenovo Tab M10",
+      "description": "4GB de memoria RAM",
       "price": 92440,
       "image": "https://i.ibb.co/59PJsfn/Lenovo-Tab-M10.jpg",
       "Category":"c",
@@ -83,8 +83,8 @@
     },
     {
       "id": 10,
-      "name": "Tablet Samsung Galaxy Tab S8",
-      "description": "Lorem ipsum dolor sit amet.",
+      "name": "Samsung Galaxy Tab S8",
+      "description": "Capacidad: 128 GB",
       "price": 340999,
       "image": "https://i.ibb.co/yqrx1ZG/Tablet-Galaxi-Tab-S8.jpg",
       "Category":"c",
@@ -92,8 +92,8 @@
     },
     {
       "id": 11,
-      "name": "Tablet Pcbox Flash PCB-T104",
-      "description": "Lorem ipsum dolor sit amet.",
+      "name": "Pcbox Flash PCB-T104",
+      "description": "Capacidad: 256 GB",
       "price": 50968,
       "image": "https://i.ibb.co/C9KMgFL/Tablet-Pcbox-Flash-PCB-T104.jpg",
       "Category":"c",
@@ -102,7 +102,7 @@
     {
       "id": 12,
       "name": "iPad Apple 10th 2022 A2696",
-      "description": "Lorem ipsum dolor sit amet.",
+      "description": "Capacidad: 1T",
       "price": 289999,
       "image": "https://i.ibb.co/CzYCcB5/i-Pad-Apple-10th.jpg",
       "Category":"c",
@@ -110,8 +110,8 @@
     },
     {
       "id": 13,
-      "name": "Lenovo IdeaPad 1 14ADA7",
-      "description": "Lorem ipsum dolor sit amet.",
+      "name": "Lenovo IdeaPad 1",
+      "description": "128gb Ssd",
       "price": 289999,
       "image": "https://i.ibb.co/YRSDdXd/Lenovo-Idea-Pad-1-14-ADA7.jpg",
       "quantity": 1
@@ -119,7 +119,7 @@
     {
       "id": 14,
       "name": "Notebook Dell 3505",
-      "description": "Lorem ipsum dolor sit amet.",
+      "description": "60 Hz 1366x768px",
       "price": 330325,
       "image": "https://i.ibb.co/8NG9ZcG/Notebook-Dell-Inspiron-3505.jpg",
       "Category":"d",
@@ -127,8 +127,8 @@
     },
     {
       "id": 15,
-      "name": "Notebook Banghó Max L4 i1",
-      "description": "Lorem ipsum dolor sit amet.",
+      "name": "Notebook Banghó Max",
+      "description": "480GB SSD",
       "price": 204750,
       "image": "https://i.ibb.co/WBLkKWk/Notebook-Bangh-Max-L4-i1.jpg",
       "Category":"d",
@@ -137,7 +137,7 @@
     {
       "id": 16,
       "name": "Notebook HP 2514",
-      "description": "Lorem ipsum dolor sit amet.",
+      "description": "1366x768 px",
       "price": 584999,
       "image": "https://i.ibb.co/F6XZyNC/Notebook-HP-15-ef2514.jpg",
       "Category":"d",

@@ -1,14 +1,15 @@
+import React from "react";
 import { useContext } from "react";
 import { dataContext } from "../context/DataContext";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import ItemsTotal from './ShoppingCart/ItemsTotal';
-import "./../Style sheets/BarraNavegacion.css"
+import "./../Style sheets/BarraNavegacion.css";
 
 const BarraNavegacion = () =>{
   const {cart} = useContext(dataContext);
@@ -16,7 +17,7 @@ const BarraNavegacion = () =>{
     <Navbar sticky='top' variant='dark' bg="dark" expand="lg">
       <Container>
       <Link to={"/"} style={{ textDecoration: "none" }}>
-        <img src="src\assets\robotlogo.png" alt="" width={50} height={50} />
+        <img src="src\assets\robotlogo.png" alt="" width={50} height={50}  style={{ textDecoration: "none" }}/>
         
         <Navbar.Brand style={{ textDecoration: "Bold"}}>Tienda Node</Navbar.Brand>
        
@@ -25,7 +26,7 @@ const BarraNavegacion = () =>{
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Nosotros</Nav.Link>
+          <Nav.Link as={NavLink} to="/nosotros">Nosotros</Nav.Link>
             {/* <Nav.Link href="#link">Link</Nav.Link> */}
             
             <NavDropdown title="Productos" id="basic-nav-dropdown">

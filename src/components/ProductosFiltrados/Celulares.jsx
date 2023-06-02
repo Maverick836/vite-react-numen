@@ -1,10 +1,9 @@
-import { useContext, useState, useEffect  } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { dataContext } from "../../context/DataContext";
 import BarraNavegacion from "../NavBar";
-import React from 'react'
 import Footer from "../Footer";
 import Buycheck from "../Buycheck";
-import "../../Style sheets/Home.css"
+import "../../Style sheets/Home.css";
 
 export const Celulares = () => {
 

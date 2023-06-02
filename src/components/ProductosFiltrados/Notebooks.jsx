@@ -1,10 +1,10 @@
-import { useContext, useState, useEffect } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { dataContext } from "../../context/DataContext";
 import BarraNavegacion from "../NavBar";
-import React from 'react'
 import Footer from "../Footer";
 import Buycheck from "../Buycheck";
-import "../../Style sheets/Home.css"
+import "../../Style sheets/Home.css";
+
 
 export const Notebooks = () => {
 // Obtiene los datos , la funcion scrollToTop y la función addToCart del contexto
